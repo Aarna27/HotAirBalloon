@@ -15,19 +15,19 @@ var END = 0;
 var gameState = PLAY;
 
 function preload(){
-bgImg = loadImage("assets/bg.png")
+bgImg = loadImage("bg.png")
 
-balloonImg = loadAnimation("assets/balloon1.png","assets/balloon2.png","assets/balloon3.png")
+balloonImg = loadAnimation("balloon1.png","balloon2.png","balloon3.png")
 
-obsTop1 = loadImage("assets/obsTop1.png")
-obsTop2 = loadImage("assets/obsTop2.png")
+obsTop1 = loadImage("obsTop1.png")
+obsTop2 = loadImage("obsTop2.png")
 
-obsBottom1 = loadImage("assets/obsBottom1.png")
-obsBottom2 = loadImage("assets/obsBottom2.png")
-obsBottom3 = loadImage("assets/obsBottom3.png")
+obsBottom1 = loadImage("obsBottom1.png")
+obsBottom2 = loadImage("obsBottom2.png")
+obsBottom3 = loadImage("obsBottom3.png")
 
-gameOverImg= loadImage("assets/gameOver.png")
-restartImg = loadImage("assets/restart.png")
+gameOverImg= loadImage("gameOver.png")
+restartImg = loadImage("restart.png")
 
 }
 
